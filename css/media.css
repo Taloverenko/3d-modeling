@@ -1,0 +1,281 @@
+@media (max-width: 1199px) {
+
+  .hero__title {
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 16px;
+  }
+
+  .hero__right {
+    background-size: contain;
+  }
+
+  .teachers__card {
+    margin-bottom: 22px;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero__right {
+    background-image: url(../img/2-3d_group-768.png);
+    background-position: center 117px;
+    background-size: auto;
+  }
+
+  .hero__left {
+    padding-bottom: 135px;
+  }
+
+  .hero__btn {
+    padding: 23px 78px;
+  }
+
+  .pluses {
+    padding-bottom: 75px;
+  }
+
+  .pluses__heading {
+    max-width: 100%;
+  }
+
+  .pluses__down {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+    -webkit-box-align: start;
+       -ms-flex-align: start;
+          align-items: start;
+  }
+
+  .pluses__small-img {
+    margin-bottom: 3px;
+  }
+
+  .teachers__foto {
+    background-size: 102%;
+  }
+
+  .teachers {
+    padding-bottom: 52px;
+  }
+
+  .courses {
+    padding-bottom: 77px;
+  }
+
+  .courses__card-down {
+    min-height: 376px;
+  }
+
+  .courses__card-img {
+    padding: 11px 10px;
+  }
+
+  .courses__btn {
+    padding: 22px 56px;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .header {
+    padding: 30px;
+  }
+
+  .header__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+    min-height: 74px;
+  }
+
+  .header__logo {
+    margin-bottom: 5px;
+  }
+
+  .hero__left {
+    padding-top: 76px;
+  }
+
+  .hero__row2 {
+    width: 95%;
+  }
+
+  .pluses {
+    padding-bottom: 55px;
+  }
+
+  .pluses__img {
+    -webkit-box-align: start;
+       -ms-flex-align: start;
+          align-items: start;
+  }
+
+  .teachers__foto1 {
+    background-image: url(../img/4-photo1-576.jpg);
+  }
+
+  .teachers__foto2 {
+    background-image: url(../img/4-photo2-576.jpg);
+  }
+
+  .teachers__foto3 {
+    background-image: url(../img/4-photo3-576.jpg);
+  }
+
+  .teachers__foto4 {
+    background-image: url(../img/4-photo4-576.jpg);
+  }
+
+  .courses__card-down {
+    padding-top: 32px;
+    min-height: 473px;
+  }
+
+  .courses__card-heading {
+    line-height: 23.4px;
+  }
+
+  .courses__card-descr {
+    margin-bottom: 34px;
+  }
+
+  .courses__btn {
+    padding: 22px 49px;
+  }
+}
+
+@media (max-width: 575px) {
+  body {
+    line-height: 21px;
+  }
+
+  .header {
+    padding: 0;
+  }
+
+  .header__container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+       -ms-flex-direction: row;
+           flex-direction: row;
+    min-height: 80px;
+  }
+
+  .header__nav {
+    display: none;
+  }
+
+  .header__burger {
+    display: block;
+  }
+
+  .header__logo {
+    margin-bottom: 0;
+  }
+
+  .header__logo svg {
+    width: 72px;
+  }
+
+  .hero__left {
+    padding-top: 50px;
+    padding-bottom: 49px;
+  }
+
+  .hero__title {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 4px;
+  }
+
+  .hero__row2 {
+    width: 100%;
+    margin-bottom: 45px;
+  }
+
+  .hero__descr {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .hero__btn {
+    font-size: 16px;
+    padding: 20px 55px;
+  }
+
+  .pluses__img {
+    display: none;
+  }
+  
+  h2 {
+    font-size: 20px;
+    line-height: 26px;
+
+  }
+
+  .pluses {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+
+  .pluses__heading {
+    margin-bottom: 2px;
+  }
+
+  .pluses__descr {
+    line-height: 24px;
+  }
+
+  .pluses__down {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+       -ms-flex-direction: row;
+           flex-direction: row;
+    margin-bottom: 22px;
+  }
+
+  .teachers {
+    padding-top: 44px;
+    padding-bottom: 24px;
+  }
+
+  .teachers__foto {
+    margin-bottom: 31px;
+  }
+
+  .teachers__speech {
+    line-height: 24px;
+  }
+
+  .courses {
+    padding-top: 43px;
+    padding-bottom: 21px;
+  }
+
+  .courses__card {
+    margin-bottom: 30px;
+  }
+
+  .courses__time-text {
+    padding-top: 2px;
+  }
+
+  .courses__card-down {
+    padding-bottom: 29px;
+  }
+
+  .courses__card-descr {
+    line-height: 24px;
+  }
+
+  .courses__btn {
+    padding: 22px 56px;
+  }
+
+  .courses__row1 {
+    margin-bottom: 0;
+  }
+}
